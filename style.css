@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: oswald;
+  font-size: 4em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container > .menu {
+  margin: 1em;
+  color: rgb(73, 64, 64);
+}
+
+.container > .two-col {
+  margin: 20px;
+  padding: 20px;
+  width: auto;
+  max-width: 600px;
+}
+
+.dark-bg {
+  background-color: #161616;
+  padding: 10vh;
+  width: 90vw;
+}
+
+.dark-bg > div,
+h1 {
+  color: #fff;
+  font-variant: small-caps;
+}
+
+.margin-top {
+  margin-top: 3em;
+}
+
+.margin-side {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px auto;
+}
+
+.grid-item {
+}
