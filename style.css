@@ -1,5 +1,30 @@
+:root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+html {
+  line-height: 1.15;
+}
+
 body {
   font-family: sans-serif;
+}
+
+button {
+  padding: 1em 2em;
+  border-radius: 4px;
+  border: 2px solid #555;
+  background-color: #555555;
+  color: #fff;
+  letter-spacing: 2px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: rgb(73, 64, 64);
 }
 
 h1 {
@@ -26,25 +51,32 @@ p {
   color: rgb(73, 64, 64);
 }
 
-.container > .two-col {
+.container > .col {
   margin: 20px;
   padding: 20px;
   width: auto;
   max-width: 600px;
 }
 
-.dark-bg {
-  background-color: #161616;
-  padding: 10vh;
-  width: 90vw;
+.container > .grid {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  width: auto;
+  max-width: 400px;
 }
 
-.dark-bg > div,
-h1 {
+.dark-bg {
+  background-color: #161616;
+}
+
+.dark-bg > h1 {
   color: #fff;
   font-variant: small-caps;
 }
-
+.dark-bg > p {
+  color: #fff;
+}
 .margin-top {
   margin-top: 3em;
 }
@@ -54,10 +86,10 @@ h1 {
   margin-right: 1em;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 200px 200px auto;
+.padding-10 {
+  padding: 10vh;
 }
 
-.grid-item {
+.padding-s5 {
+  padding: 0.5vh;
 }
